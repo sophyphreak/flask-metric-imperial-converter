@@ -10,7 +10,7 @@ Talisman(app)
 CORS(app)
 api = Api(app)
 
-api.add_resource(MetricImperialConverter, '/api/convert/')
+api.add_resource(MetricImperialConverter, "/api/convert/")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
